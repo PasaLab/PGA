@@ -1,0 +1,7 @@
+{
+    "attack": "random",
+    "dataset": "pubmed",
+    "victim": "grand",
+    "ptb_rate": 0.05,
+    "attacked_acc": "79.26\u00b10.39"
+}

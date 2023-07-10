@@ -1,0 +1,7 @@
+{
+    "attack": "mettack",
+    "dataset": "cora",
+    "victim": "total",
+    "ptb_rate": 0.05,
+    "attacked_acc": "71.63\u00b11.77"
+}

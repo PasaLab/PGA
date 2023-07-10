@@ -1,0 +1,20 @@
+cora:
+  loss_type: CE
+  surrogate: dense-gcn
+  add_ratio: 0.6
+
+
+citeseer:
+  loss_type: CE
+  surrogate: gcn
+  add_ratio: 1.0
+
+cora_ml:
+  loss_type: CE
+  surrogate: dense-gcn
+  add_ratio: 0.6
+
+pubmed:
+  loss_type: CE
+  surrogate: dense-gcn
+  add_ratio: 0.6

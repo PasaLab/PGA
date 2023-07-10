@@ -1,0 +1,7 @@
+{
+    "attack": "greedy-rbcd",
+    "dataset": "pubmed",
+    "victim": "appnp",
+    "ptb_rate": 0.01,
+    "attacked_acc": "66.34\u00b11.14"
+}

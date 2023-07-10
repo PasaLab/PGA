@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "gen_attack.py", line 12, in <module>
+    from attackers import attacker_map
+  File "/root/cmy/project_1/attackers/__init__.py", line 6, in <module>
+    from .apga import APGA
+  File "/root/cmy/project_1/attackers/apga.py", line 11, in <module>
+    from models.mlp_mixer import MlpMixer
+  File "/root/cmy/project_1/models/__init__.py", line 2, in <module>
+    from .gcn import GCN, DenseGCN, GCNSVD, GCNJaccard, GNNGuard
+  File "/root/cmy/project_1/models/gcn.py", line 9, in <module>
+    from torch_geometric.nn.conv import GCNConv
+  File "/root/anaconda3/envs/cmy_env/lib/python3.8/site-packages/torch_geometric/nn/__init__.py", line 9, in <module>
+    from .pool import *  # noqa
+  File "/root/anaconda3/envs/cmy_env/lib/python3.8/site-packages/torch_geometric/nn/pool/__init__.py", line 11, in <module>
+    from .mem_pool import MemPooling
+  File "/root/anaconda3/envs/cmy_env/lib/python3.8/site-packages/torch_geometric/nn/pool/mem_pool.py", line 12, in <module>
+    class MemPooling(torch.nn.Module):
+KeyboardInterrupt

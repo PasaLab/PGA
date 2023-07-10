@@ -1,0 +1,7 @@
+{
+    "attack": "-wo_marginpga",
+    "dataset": "pubmed",
+    "victim": "sgc",
+    "ptb_rate": 0.05,
+    "attacked_acc": "36.22\u00b11.36"
+}

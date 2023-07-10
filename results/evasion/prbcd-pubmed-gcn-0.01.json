@@ -1,0 +1,7 @@
+{
+    "attack": "prbcd",
+    "dataset": "pubmed",
+    "victim": "gcn",
+    "ptb_rate": 0.01,
+    "attacked_acc": "64.10\u00b10.79"
+}

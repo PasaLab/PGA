@@ -1,0 +1,7 @@
+{
+    "attack": "dice",
+    "dataset": "cora",
+    "victim": "gnn-guard",
+    "ptb_rate": 0.05,
+    "attacked_acc": "80.56\u00b10.40"
+}

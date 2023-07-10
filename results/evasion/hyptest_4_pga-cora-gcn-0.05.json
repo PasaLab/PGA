@@ -1,0 +1,7 @@
+{
+    "attack": "hyptest_4_pga",
+    "dataset": "cora",
+    "victim": "gcn",
+    "ptb_rate": 0.05,
+    "attacked_acc": "71.78\u00b10.25"
+}

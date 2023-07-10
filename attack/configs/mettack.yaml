@@ -1,0 +1,48 @@
+cora:
+  loss_type: CE
+  surrogate: gcn
+  lambda_: 0.0
+  undirected: True
+  inner_epochs: 200
+  inner_lr: 0.01
+  inner_momentum: 0.9
+  ll_constraint: False
+  ll_cutoff: 0.04
+  attack_type: 'Meta-Self'  # 'Meta-Self', 'A-Meta-Self', 'Meta-Train', 'A-Meta-Train'
+
+citeseer:
+  loss_type: CE
+  surrogate: gcn
+  lambda_: 0.0
+  undirected: True
+  inner_epochs: 100
+  inner_lr: 0.1
+  inner_momentum: 0.9
+  ll_constraint: False
+  ll_cutoff: 0.04
+  attack_type: 'Meta-Self'  # 'Meta-Self', 'A-Meta-Self', 'Meta-Train', 'A-Meta-Train'
+
+cora_ml:
+  loss_type: CE
+  surrogate: gcn
+  lambda_: 0.0
+  undirected: True
+  inner_epochs: 100
+  inner_lr: 0.1
+  inner_momentum: 0.9
+  ll_constraint: False
+  ll_cutoff: 0.04
+  attack_type: 'Meta-Self'  # 'Meta-Self', 'A-Meta-Self', 'Meta-Train', 'A-Meta-Train'
+
+
+pubmed:
+  loss_type: CE
+  surrogate: gcn
+  lambda_: 0.0
+  undirected: True
+  inner_epochs: 100
+  inner_lr: 0.1
+  inner_momentum: 0.9
+  ll_constraint: False
+  ll_cutoff: 0.04
+  attack_type: 'Meta-Self'  # 'Meta-Self', 'A-Meta-Self', 'Meta-Train', 'A-Meta-Train'

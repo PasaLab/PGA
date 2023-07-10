@@ -1,0 +1,7 @@
+{
+    "attack": "-wo_prefpga",
+    "dataset": "pubmed",
+    "victim": "sgc",
+    "ptb_rate": 0.05,
+    "attacked_acc": "35.98\u00b11.31"
+}

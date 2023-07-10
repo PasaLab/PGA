@@ -1,0 +1,7 @@
+{
+    "attack": "-wo_degreepga",
+    "dataset": "cora",
+    "victim": "graph-sage",
+    "ptb_rate": 0.05,
+    "attacked_acc": "71.82\u00b10.76"
+}

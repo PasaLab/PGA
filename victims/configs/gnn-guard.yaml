@@ -1,0 +1,40 @@
+
+cora:
+  seed: 15
+  learning_rate: 0.01
+  weight_decay: 0.0005
+  num_layers: 2
+  num_hidden: 32
+  dropout: 0.5
+  num_epochs: 3000
+  patience: 100
+
+cora_ml:
+  seed: 15
+  learning_rate: 0.01
+  weight_decay: 0.0005
+  num_layers: 2
+  num_hidden: 32
+  dropout: 0.5
+  num_epochs: 3000
+  patience: 100
+
+citeseer:
+  seed: 15
+  learning_rate: 0.01
+  weight_decay: 0.0005
+  num_layers: 2
+  num_hidden: 32
+  dropout: 0.5
+  num_epochs: 3000
+  patience: 100
+
+pubmed:
+  seed: 15
+  learning_rate: 0.01
+  weight_decay: 0.0005
+  num_layers: 2
+  num_hidden: 32
+  dropout: 0.5
+  num_epochs: 3000
+  patience: 100

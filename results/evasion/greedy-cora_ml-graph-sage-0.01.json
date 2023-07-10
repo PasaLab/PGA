@@ -1,0 +1,7 @@
+{
+    "attack": "greedy",
+    "dataset": "cora_ml",
+    "victim": "graph-sage",
+    "ptb_rate": 0.01,
+    "attacked_acc": "79.80\u00b10.45"
+}

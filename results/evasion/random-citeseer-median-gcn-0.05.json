@@ -1,0 +1,7 @@
+{
+    "attack": "random",
+    "dataset": "citeseer",
+    "victim": "median-gcn",
+    "ptb_rate": 0.05,
+    "attacked_acc": "70.86\u00b10.87"
+}

@@ -1,0 +1,7 @@
+{
+    "attack": "pgdattack-CW",
+    "dataset": "citeseer",
+    "victim": "gcn",
+    "ptb_rate": 0.03,
+    "attacked_acc": "68.28\u00b10.57"
+}

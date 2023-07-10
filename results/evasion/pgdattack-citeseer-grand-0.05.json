@@ -1,0 +1,7 @@
+{
+    "attack": "pgdattack",
+    "dataset": "citeseer",
+    "victim": "grand",
+    "ptb_rate": 0.05,
+    "attacked_acc": "69.70\u00b10.54"
+}

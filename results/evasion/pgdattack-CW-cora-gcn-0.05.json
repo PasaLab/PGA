@@ -1,0 +1,7 @@
+{
+    "attack": "pgdattack-CW",
+    "dataset": "cora",
+    "victim": "gcn",
+    "ptb_rate": 0.05,
+    "attacked_acc": "75.78\u00b10.87"
+}

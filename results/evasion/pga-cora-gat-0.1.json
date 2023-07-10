@@ -1,0 +1,7 @@
+{
+    "attack": "pga",
+    "dataset": "cora",
+    "victim": "gat",
+    "ptb_rate": 0.1,
+    "attacked_acc": "65.28\u00b10.53"
+}

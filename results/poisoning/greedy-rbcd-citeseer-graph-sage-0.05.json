@@ -1,0 +1,7 @@
+{
+    "attack": "greedy-rbcd",
+    "dataset": "citeseer",
+    "victim": "graph-sage",
+    "ptb_rate": 0.05,
+    "attacked_acc": "65.32\u00b11.24"
+}

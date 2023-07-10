@@ -1,0 +1,69 @@
+cora:
+  surrogate: gcn
+  epochs: 500
+  fine_tune_epochs: 100
+  keep_heuristic: WeightOnly
+  search_space_size: 10_000
+  do_synchronize: True
+  loss_type: tanhMarginMCE-0.25
+  make_undirected: True
+  binary_attr: False
+  filter_lr: 1.0
+  filter_w_decay: 0.003
+  inner_step: 3
+
+cora_ml:
+  surrogate: gcn
+  epochs: 500
+  fine_tune_epochs: 100
+  keep_heuristic: WeightOnly
+  search_space_size: 500_000
+  do_synchronize: True
+  loss_type: tanhMarginMCE-0.25
+  make_undirected: True
+  binary_attr: False
+  filter_lr: 2.0
+  filter_w_decay: 0.003
+  inner_step: 1
+
+citeseer:
+  surrogate: gcn
+  epochs: 500
+  fine_tune_epochs: 100
+  keep_heuristic: WeightOnly
+  search_space_size: 1000_000
+  do_synchronize: True
+  loss_type: tanhMarginMCE-0.15
+  make_undirected: True
+  binary_attr: False
+  filter_lr: 0.1
+  filter_w_decay: 0.003
+  inner_step: 2
+
+
+pubmed:
+  surrogate: gcn
+  epochs: 500
+  fine_tune_epochs: 100
+  keep_heuristic: WeightOnly
+  search_space_size: 1_000_000
+  do_synchronize: True
+  loss_type: MCE
+  make_undirected: True
+  binary_attr: False
+  filter_lr: 2.0
+  filter_w_decay: 0.003
+  inner_step: 1
+
+
+
+#pubmed:  #28.76+-0.40
+#  surrogate: gcn
+#  epochs: 600
+#  fine_tune_epochs: 100
+#  keep_heuristic: WeightOnly
+#  search_space_size: 50_000
+#  do_synchronize: True
+#  loss_type: MCE
+#  make_undirected: True
+#  binary_attr: False

@@ -1,0 +1,7 @@
+{
+    "attack": "only_margin_pga",
+    "dataset": "citeseer",
+    "victim": "rgcn",
+    "ptb_rate": 0.05,
+    "attacked_acc": "64.14\u00b10.29"
+}

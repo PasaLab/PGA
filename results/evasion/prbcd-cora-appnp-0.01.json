@@ -1,0 +1,7 @@
+{
+    "attack": "prbcd",
+    "dataset": "cora",
+    "victim": "appnp",
+    "ptb_rate": 0.01,
+    "attacked_acc": "81.54\u00b10.58"
+}

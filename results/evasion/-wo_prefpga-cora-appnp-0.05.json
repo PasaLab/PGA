@@ -1,0 +1,7 @@
+{
+    "attack": "-wo_prefpga",
+    "dataset": "cora",
+    "victim": "appnp",
+    "ptb_rate": 0.05,
+    "attacked_acc": "74.70\u00b11.02"
+}

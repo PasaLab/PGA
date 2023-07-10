@@ -1,0 +1,7 @@
+{
+    "attack": "only_degree_pga",
+    "dataset": "pubmed",
+    "victim": "normal",
+    "ptb_rate": 0.05,
+    "attacked_acc": "39.59\u00b11.55"
+}

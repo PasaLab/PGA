@@ -1,0 +1,7 @@
+{
+    "attack": "prbcd",
+    "dataset": "citeseer",
+    "victim": "rgcn",
+    "ptb_rate": 0.01,
+    "attacked_acc": "69.22\u00b10.24"
+}

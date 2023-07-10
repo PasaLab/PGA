@@ -1,0 +1,7 @@
+{
+    "attack": "meta-pgd",
+    "dataset": "cora",
+    "victim": "median-gcn",
+    "ptb_rate": 0.05,
+    "attacked_acc": "80.08\u00b10.79"
+}

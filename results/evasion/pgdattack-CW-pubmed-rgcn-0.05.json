@@ -1,0 +1,7 @@
+{
+    "attack": "pgdattack-CW",
+    "dataset": "pubmed",
+    "victim": "rgcn",
+    "ptb_rate": 0.05,
+    "attacked_acc": "56.84\u00b10.59"
+}

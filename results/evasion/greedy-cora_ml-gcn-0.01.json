@@ -1,0 +1,7 @@
+{
+    "attack": "greedy",
+    "dataset": "cora_ml",
+    "victim": "gcn",
+    "ptb_rate": 0.01,
+    "attacked_acc": "80.84\u00b10.62"
+}

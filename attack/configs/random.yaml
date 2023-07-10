@@ -1,0 +1,20 @@
+cora:
+  loss_type: CE
+  surrogate: gcn
+  att_type: add
+
+
+citeseer:
+  loss_type: CE
+  surrogate: gcn
+  att_type: add
+
+cora_ml:
+  loss_type: CE
+  surrogate: gcn
+  att_type: add
+
+pubmed:
+  loss_type: CE
+  surrogate: gcn
+  att_type: add

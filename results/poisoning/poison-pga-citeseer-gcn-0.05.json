@@ -1,0 +1,7 @@
+{
+    "attack": "poison-pga",
+    "dataset": "citeseer",
+    "victim": "gcn",
+    "ptb_rate": 0.05,
+    "attacked_acc": "60.96\u00b11.21"
+}

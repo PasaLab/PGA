@@ -1,0 +1,7 @@
+{
+    "attack": "apga",
+    "dataset": "pubmed",
+    "victim": "gcn-jaccard",
+    "ptb_rate": 0.05,
+    "attacked_acc": "47.10\u00b10.23"
+}

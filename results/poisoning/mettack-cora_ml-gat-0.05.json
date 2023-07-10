@@ -1,0 +1,7 @@
+{
+    "attack": "mettack",
+    "dataset": "cora_ml",
+    "victim": "gat",
+    "ptb_rate": 0.05,
+    "attacked_acc": "75.12\u00b10.70"
+}

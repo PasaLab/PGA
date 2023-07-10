@@ -1,0 +1,7 @@
+{
+    "attack": "dice",
+    "dataset": "pubmed",
+    "victim": "sgc",
+    "ptb_rate": 0.05,
+    "attacked_acc": "76.78\u00b10.20"
+}

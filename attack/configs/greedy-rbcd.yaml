@@ -1,0 +1,66 @@
+#karate_club:
+#  surrogate: gcn
+#  epochs: 500
+#  fine_tune_epochs: 100
+#  keep_heuristic: WeightOnly
+#  search_space_size: 1_000_000
+#  do_synchronize: True
+#  loss_type: MCE
+#  make_undirected: True
+#  binary_attr: False
+
+
+cora:
+  surrogate: gcn
+  epochs: 500
+  fine_tune_epochs: 100
+  keep_heuristic: WeightOnly
+  search_space_size: 1_000_000
+  do_synchronize: True
+  loss_type: MCE
+  make_undirected: True
+  binary_attr: False
+
+cora_ml:
+  surrogate: gcn
+  epochs: 500
+  fine_tune_epochs: 100
+  keep_heuristic: WeightOnly
+  search_space_size: 1_000_000
+  do_synchronize: True
+  loss_type: MCE
+  make_undirected: True
+  binary_attr: False
+
+citeseer:
+  surrogate: gcn
+  epochs: 500
+  fine_tune_epochs: 100
+  keep_heuristic: WeightOnly
+  search_space_size: 1_000_000
+  do_synchronize: True
+  loss_type: MCE
+  make_undirected: True
+  binary_attr: False
+
+polblogs:
+  surrogate: gcn
+  epochs: 500
+  fine_tune_epochs: 100
+  keep_heuristic: WeightOnly
+  search_space_size: 1_000_000
+  do_synchronize: True
+  loss_type: MCE
+  make_undirected: True
+  binary_attr: False
+
+pubmed:
+  surrogate: gcn
+  epochs: 500
+  fine_tune_epochs: 100
+  keep_heuristic: WeightOnly
+  search_space_size: 2_500_000
+  do_synchronize: True
+  loss_type: MCE
+  make_undirected: True
+  binary_attr: False

@@ -1,0 +1,7 @@
+{
+    "attack": "greedy-rbcd",
+    "dataset": "citeseer",
+    "victim": "appnp",
+    "ptb_rate": 0.01,
+    "attacked_acc": "70.30\u00b10.41"
+}

@@ -1,0 +1,20 @@
+cora:
+  loss_type: CE
+  surrogate: dense-gcn
+  lambda_: 0.0
+
+
+citeseer:
+  loss_type: CE
+  surrogate: dense-gcn
+  lambda_: 0.0
+
+cora_ml:
+  loss_type: CE
+  surrogate: dense-gcn
+  lambda_: 0.0
+
+pubmed:
+  loss_type: CE
+  surrogate: dense-gcn
+  lambda_: 0.0

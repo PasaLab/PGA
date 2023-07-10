@@ -1,0 +1,7 @@
+{
+    "attack": "random",
+    "dataset": "cora",
+    "victim": "gcnsvd",
+    "ptb_rate": 0.05,
+    "attacked_acc": "73.14\u00b11.49"
+}

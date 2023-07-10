@@ -1,0 +1,7 @@
+{
+    "attack": "greedy",
+    "dataset": "citeseer",
+    "victim": "gcn",
+    "ptb_rate": 0.01,
+    "attacked_acc": "69.48\u00b10.43"
+}

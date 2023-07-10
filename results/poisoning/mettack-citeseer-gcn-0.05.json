@@ -1,0 +1,7 @@
+{
+    "attack": "mettack",
+    "dataset": "citeseer",
+    "victim": "gcn",
+    "ptb_rate": 0.05,
+    "attacked_acc": "56.14\u00b12.16"
+}

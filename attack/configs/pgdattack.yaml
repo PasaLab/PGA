@@ -1,0 +1,25 @@
+
+cora:
+  surrogate: dense-gcn
+  epochs: 200
+  lr: 200.0
+  loss_type: CW
+
+
+cora_ml:
+  surrogate: dense-gcn
+  epochs: 200
+  lr: 200.0
+  loss_type: CW
+
+citeseer:
+  surrogate: dense-gcn
+  epochs: 200
+  lr: 200.0
+  loss_type: CW
+
+pubmed:
+  surrogate: dense-gcn
+  epochs: 200
+  lr: 10.0
+  loss_type: CW

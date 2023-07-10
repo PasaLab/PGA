@@ -1,0 +1,7 @@
+{
+    "attack": "greedy-rbcd",
+    "dataset": "cora",
+    "victim": "all",
+    "ptb_rate": 0.04,
+    "attacked_acc": "72.78\u00b10.58"
+}

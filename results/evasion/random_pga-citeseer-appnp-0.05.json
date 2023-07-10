@@ -1,0 +1,7 @@
+{
+    "attack": "random_pga",
+    "dataset": "citeseer",
+    "victim": "appnp",
+    "ptb_rate": 0.05,
+    "attacked_acc": "65.98\u00b11.32"
+}

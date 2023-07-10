@@ -1,0 +1,9 @@
+cora:
+  loss_type: CE
+  seed: 15
+  surrogate: dense-gcn
+  lr: 0.01
+  train_iters: 100
+  momentum: 0.9
+  with_relu: False
+  with_bias: False

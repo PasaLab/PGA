@@ -1,0 +1,7 @@
+{
+    "attack": "dice",
+    "dataset": "cora_ml",
+    "victim": "grand",
+    "ptb_rate": 0.05,
+    "attacked_acc": "84.66\u00b10.23"
+}

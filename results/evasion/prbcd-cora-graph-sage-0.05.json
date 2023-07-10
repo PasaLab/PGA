@@ -1,0 +1,7 @@
+{
+    "attack": "prbcd",
+    "dataset": "cora",
+    "victim": "graph-sage",
+    "ptb_rate": 0.05,
+    "attacked_acc": "72.40\u00b11.35"
+}

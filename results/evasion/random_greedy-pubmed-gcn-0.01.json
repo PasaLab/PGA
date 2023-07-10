@@ -1,0 +1,7 @@
+{
+    "attack": "random_greedy",
+    "dataset": "pubmed",
+    "victim": "gcn",
+    "ptb_rate": 0.01,
+    "attacked_acc": "73.16\u00b10.62"
+}

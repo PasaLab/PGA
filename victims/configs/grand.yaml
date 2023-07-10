@@ -1,0 +1,64 @@
+
+cora:
+  seed: 15
+  learning_rate: 0.01
+  weight_decay: 0.0005
+  num_epochs: 5000
+  patience: 100
+  hidden: 32
+  input_droprate: 0.5
+  hidden_droprate: 0.5
+  dropnode_rate: 0.5
+  order: 5
+  sample: 4
+  temperate: 0.5
+  lam: 1.0
+  use_bn: False
+
+citeseer:
+  seed: 15
+  learning_rate: 0.01
+  weight_decay: 0.0005
+  num_epochs: 5000
+  patience: 100
+  hidden: 32
+  input_droprate: 0.5
+  hidden_droprate: 0.5
+  dropnode_rate: 0.5
+  order: 5
+  sample: 4
+  temperate: 0.5
+  lam: 1.0
+  use_bn: False
+
+cora_ml:
+  seed: 15
+  learning_rate: 0.01
+  weight_decay: 0.0005
+  num_epochs: 5000
+  patience: 100
+  hidden: 32
+  input_droprate: 0.5
+  hidden_droprate: 0.5
+  dropnode_rate: 0.5
+  order: 5
+  sample: 4
+  temperate: 0.5
+  lam: 1.0
+  use_bn: False
+
+pubmed:
+  seed: 15
+  learning_rate: 0.01
+  weight_decay: 0.0005
+  num_epochs: 5000
+  patience: 100
+  hidden: 32
+  input_droprate: 0.5
+  hidden_droprate: 0.5
+  dropnode_rate: 0.5
+  order: 5
+  sample: 4
+  temperate: 0.5
+  lam: 1.0
+  use_bn: False

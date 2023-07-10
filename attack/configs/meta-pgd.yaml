@@ -1,0 +1,8 @@
+
+cora:
+  surrogate: dense-gcn
+  epochs: 200
+  base_lr: 0.1
+  sampling_tries: 100
+  xi: 0.00005
+  loss_type: tanhMargin

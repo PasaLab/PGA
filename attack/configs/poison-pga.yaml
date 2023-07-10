@@ -1,0 +1,83 @@
+
+cora:
+  surrogate: gcn
+  loss_type: tanhMarginMCE-0.15
+  greedy_steps: 1
+  pre_ratio: 0.2
+  select_ratio: 0.6
+  influ_ratio: 0.9
+  select_policy: deg & margin
+
+#cora:
+#  surrogate: gcn
+#  loss_type: tanhMarginMCE-0.15
+#  greedy_steps: 1
+#  pre_ratio: 0.2
+#  select_ratio: 0.6
+#  influ_ratio: 0.9
+#  select_policy: deg & margin
+
+cora_ml:
+  surrogate: gcn
+  loss_type: tanhMarginMCE-0.5
+  greedy_steps: 1
+  pre_ratio: 0.1
+  select_ratio: 0.6
+  influ_ratio: 0.8
+  select_policy: deg & margin
+
+#cora_ml:
+#  surrogate: gcn
+#  loss_type: tanhMarginMCE-0.5
+#  greedy_steps: 1
+#  pre_ratio: 0.1
+#  select_ratio: 0.6
+#  influ_ratio: 0.8
+#  select_policy: deg & margin
+
+citeseer:
+  surrogate: gcn
+  loss_type: tanhMarginMCE-0.1
+  greedy_steps: 1
+  pre_ratio: 0.1
+  select_ratio: 0.6
+  influ_ratio: 0.8
+  select_policy: deg & margin
+
+#citeseer:
+#  surrogate: gcn
+#  loss_type: tanhMarginMCE-0.1
+#  greedy_steps: 1
+#  pre_ratio: 0.1
+#  select_ratio: 0.6
+#  influ_ratio: 0.8
+#  select_policy: deg & margin
+
+polblogs:
+  surrogate: gcn
+  loss_type: MCE
+  greedy_steps: 2
+  pre_ratio: 0.0
+  select_ratio: 0.45
+  influ_ratio: 0.55
+  select_policy: deg & margin
+
+
+pubmed:
+  surrogate: gcn
+  loss_type: tanhMarginMCE-0.15
+  greedy_steps: 2
+  pre_ratio: 0.05
+  select_ratio: 0.95
+  influ_ratio: 0.8
+  select_policy: deg & margin
+
+
+#pubmed:
+#  surrogate: gcn
+#  loss_type: tanhMarginMCE-0.15
+#  greedy_steps: 2
+#  pre_ratio: 0.05
+#  select_ratio: 0.95
+#  influ_ratio: 0.8
+#  select_policy: deg & margin

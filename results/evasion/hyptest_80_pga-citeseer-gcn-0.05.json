@@ -1,0 +1,7 @@
+{
+    "attack": "hyptest_80_pga",
+    "dataset": "citeseer",
+    "victim": "gcn",
+    "ptb_rate": 0.05,
+    "attacked_acc": "61.32\u00b10.92"
+}
