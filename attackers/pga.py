@@ -11,7 +11,7 @@ from torch_sparse import coalesce
 
 
 
-def select_attacking_targets(logits, labels, idx_attack, adj_t, policy, pre_ratio, select_ratio, stat_data):
+def select_attacking_targets(logits, labels, idx_attack, adj_t, policy, pre_ratio, select_ratio):
 
     correct_mask = logits.argmax(1).cpu() == labels.cpu()
     index_attack = torch.nonzero(correct_mask & idx_attack.cpu()).flatten().detach().cpu()
@@ -24,15 +24,15 @@ def select_attacking_targets(logits, labels, idx_attack, adj_t, policy, pre_rati
     """
     margins = classification_margin(logits, labels)[index_attack]
     degrees = calculate_degree(adj_t)[index_attack]
-    degree_cty = stat_data['degree_centrality'][index_attack]
-    pagerank = stat_data['pagerank'][index_attack]
-    cluster_coeff = stat_data['clustering_coefficient'][index_attack]
-    eigen_cty = stat_data['eigenvector_centrality'][index_attack]
-    surr_logit = stat_data['logits']
-    if type(surr_logit) is list:
-        surr_logit = surr_logit[0]
-    surr_logit = surr_logit[index_attack]
-    entropy = -(surr_logit * surr_logit.log()).sum(1)
+    # degree_cty = stat_data['degree_centrality'][index_attack]
+    # pagerank = stat_data['pagerank'][index_attack]
+    # cluster_coeff = stat_data['clustering_coefficient'][index_attack]
+    # eigen_cty = stat_data['eigenvector_centrality'][index_attack]
+    # surr_logit = stat_data['logits']
+    # if type(surr_logit) is list:
+    #     surr_logit = surr_logit[0]
+    # surr_logit = surr_logit[index_attack]
+    # entropy = -(surr_logit * surr_logit.log()).sum(1)
 
     n_nodes = index_attack.size(0)
 
@@ -42,11 +42,11 @@ def select_attacking_targets(logits, labels, idx_attack, adj_t, policy, pre_rati
 
     margins = margins[pre_mask]
     degrees = degrees[pre_mask]
-    degree_cty = degree_cty[pre_mask]
-    pagerank = pagerank[pre_mask]
-    cluster_coeff = cluster_coeff[pre_mask]
-    eigen_cty = eigen_cty[pre_mask]
-    entropy = entropy[pre_mask]
+    # degree_cty = degree_cty[pre_mask]
+    # pagerank = pagerank[pre_mask]
+    # cluster_coeff = cluster_coeff[pre_mask]
+    # eigen_cty = eigen_cty[pre_mask]
+    # entropy = entropy[pre_mask]
 
     index_attack = index_attack[pre_mask]
 
@@ -105,7 +105,7 @@ class PGA(AttackABC):
 
         self.idx_attack = self.pyg_data.test_mask
 
-        self.graph_statistics = torch.load(f"../analysis/{kwargs['dataset_name']}-gcn.pth")
+        # self.graph_statistics = torch.load(f"../analysis/{kwargs['dataset_name']}-gcn.pth")
 
 
     def _attack(self, n_perturbations, **kwargs):
@@ -114,15 +114,15 @@ class PGA(AttackABC):
 
         self.attacking_targets = select_attacking_targets(
             logits, self.labels, self.idx_attack, self.adj,
-            self.select_policy, self.pre_ratio, self.select_ratio, self.graph_statistics)
+            self.select_policy, self.pre_ratio, self.select_ratio)
 
-        torch.save(
-            obj=self.attacking_targets.detach().cpu(),
-            f=f"{kwargs['dataset']}_selected_targets_"
-              f"{self.attack_config['pre_ratio']}_"
-              f"{self.attack_config['select_ratio']}_"
-              f"{self.attack_config['influ_ratio']}.pt",
-        )
+        # torch.save(
+        #     obj=self.attacking_targets.detach().cpu(),
+        #     f=f"{kwargs['dataset']}_selected_targets_"
+        #       f"{self.attack_config['pre_ratio']}_"
+        #       f"{self.attack_config['select_ratio']}_"
+        #       f"{self.attack_config['influ_ratio']}.pt",
+        # )
 
         self.anchor_labels = kth_best_wrong_label(
             logits[self.attacking_targets],
