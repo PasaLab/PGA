@@ -1,6 +1,7 @@
 
+
 ## Introduction
-The implementation of the paper "Simple and Efficient Partial Graph Adversarial Attack: A New Perspective", under the setting of Graph Global Attack, treats different nodes differently to perform more efficient adversarial attacks.
+The implementation of the paper "Simple and Efficient Partial Graph Adversarial Attack: A New Perspective", under the setting of global attack, treats different nodes differently to perform more efficient adversarial attacks. 
 
 
 ## Main Structure
